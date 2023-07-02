@@ -1,0 +1,48 @@
+/* Reset some basic elements */
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles for Insight component */
+.insight {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.insight .title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.insight .opening-sentence,
+.insight .insight-details,
+.insight .company-information {
+  margin-top: 10px;
+}
+
+.insight .annual-revenue {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Global styles for CauseOfAction component */
+.cause-of-action {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cause-of-action .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cause-of-action .description {
+  margin-top: 10px;
+}
